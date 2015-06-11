@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/bordaVertical"
+    android:paddingRight="@dimen/bordaVertical"
+    android:paddingTop="@dimen/bordaHorizontal"
+    android:background="@color/fundoListView"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:background="@drawable/custom_border_simples"
+        android:showDividers="none"
+        android:id="@+id/llItemListView">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTitulo"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/titulo"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:text="Description"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="170px"
+                android:layout_height="170px"
+                android:id="@+id/imgViewLogo"
+                android:background="@drawable/ic_launcher"
+                android:layout_marginRight="15dp"
+                android:visibility="visible"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Categoria: "
+                        android:id="@+id/tvLabelCategoria"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descrição Categoria"
+                        android:id="@+id/tvCategoria"
+                        android:autoText="false"
+                        android:textColor="@color/link"
+                        android:background="@drawable/selector"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/tvEndereco"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/tvBairroCep"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/tvCidadeEstado"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/tvTelefone1"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selector"
+                android:autoLink="phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/tvTelefone2"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selector"
+                android:autoLink="phone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/tvTelefone3"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/selector"
+                android:autoLink="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/llButonsActionItemList"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgbActions"
+                android:background="@drawable/ic_action_share"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/borda_botao_anuncio"
+                android:cropToPadding="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgNavegar"
+                android:background="@drawable/map_location"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/borda_botao_anuncio"
+                android:longClickable="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgMapa"
+                android:background="@drawable/marker"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/borda_botao_anuncio" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgFacebook"
+                android:background="@drawable/facebook"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/borda_botao_anuncio"
+                android:cropToPadding="true" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgEmail"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/borda_botao_anuncio"
+                android:cropToPadding="true"
+                android:background="@drawable/email" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

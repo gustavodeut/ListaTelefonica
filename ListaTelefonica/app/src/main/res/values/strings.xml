@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista Telefonica</string>
+    <string name="title_section1">Nome</string>
+    <string name="title_section2">Ramo de Atividade</string>
+    <string name="title_section3">Endereço</string>
+    <string name="title_section4">Contatos</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Pesquisa</string>
+    <string name="action_rota">Navegar</string>
+    <string name="action_mapa">Mapa</string>
+    <string name="action_facebook">Facebook</string>
+    <string name="action_adicionarcontatos">Adicionar contato</string>
+    <string name="search_title">Search</string>
+    <string name="title_activity_act_detalhes">ActDetalhes</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_mapa_regiao">Resultados no Mapa</string>
+    <string name="title_activity_act_detalhe">ActDetalhe</string>
+    <string name="title_activity_act_web_view_full_screen">ActWebViewFullScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_act_maps">Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

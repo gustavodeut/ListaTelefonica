@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="bordaItemListView" >#ffd1d1d1</color>
+
+    <color name="fundoListView" >#ffe7e7e7</color>
+    <color name="fundoDetalhes" >#ffe7e7e7</color>
+    <color name="fundoImageViewAnuncio" >#ffe7e7e7</color>
+
+    <color name="itemListViewSimples" >#ffff</color>
+    <color name="itemListViewAnunciante" >#fff8e7</color>
+    <color name="link" >@android:color/holo_blue_light</color>
+    <!--<color name="titulo" >#ec172946</color>-->
+    <color name="titulo" >#1110fd</color>
+
+</resources>

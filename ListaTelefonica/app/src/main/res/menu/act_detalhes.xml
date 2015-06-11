@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gustavo.listamais.ActDetalhes" >
+
+    <item android:id="@+id/search_detalhes"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="right"
+        android:layout_alignParentRight="true"
+        />
+    <item android:id="@+id/action_rota"
+        android:title="@string/action_rota"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/action_mapa"
+        android:title="@string/action_mapa"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/action_facebook"
+        android:title="@string/action_facebook"
+        android:orderInCategory="100"
+        />
+</menu>
